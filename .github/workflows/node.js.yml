@@ -4,10 +4,14 @@
 name: CI/CD
 
 on:
+<<<<<<< HEAD
   push:name: CI / CD
 
 to:
   Push:
+=======
+  push:
+>>>>>>> 77087ce8ac201dd56090b8daad241daac1621052
     branches: [master]
   pull_request:
     branches: [master]
@@ -36,4 +40,8 @@ jobs:
       run: npm run build
     - name: Start
       run: npm start
+<<<<<<< HEAD
  
+=======
+ 
+>>>>>>> 77087ce8ac201dd56090b8daad241daac1621052
